@@ -23,3 +23,10 @@ Running the script
 On a Raspberry Pi 3 command line:
 
     sudo bash install-ghc-pi3.bash
+
+Note
+----
+
+You can revert back to standard ghc 7.10.3 by using:
+
+    sudo update-alternatives --config ghc
