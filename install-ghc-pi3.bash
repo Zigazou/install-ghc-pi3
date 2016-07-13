@@ -13,7 +13,6 @@ function assert {
 }
 
 printf "Checking environment..."
-assert "deb command not found" which deb
 assert "apt-get command not found" which apt-get
 assert "apt-key command not found" which apt-key
 assert "gpg command not found" which gpg
